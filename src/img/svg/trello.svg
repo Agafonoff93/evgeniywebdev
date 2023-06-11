@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="90" viewBox="0 0 101 90">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2192" data-name="Rectangle 2192" width="101" height="90" transform="translate(-0.274 -0.092)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.751" y1="0.124" x2="0.142" y2="0.633" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a4b9"/>
+      <stop offset="1" stop-color="#00e2ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#41e9ff"/>
+      <stop offset="1" stop-color="#007efd"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_25" data-name="Mask Group 25" transform="translate(0.274 0.092)" clip-path="url(#clip-path)">
+    <g id="Group_11243" data-name="Group 11243" transform="translate(2.867 5.56)">
+      <path id="Union_9" data-name="Union 9" d="M11,0H34.857a11,11,0,0,1,11,11V32.2a11,11,0,0,1-11,11H11a11,11,0,0,1-11-11V11A11,11,0,0,1,11,0Z" transform="translate(40.077 -1)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.3" fill="url(#linear-gradient)"/>
+      <path id="Union_8" data-name="Union 8" d="M11,0H55.339a11,11,0,0,1,11,11V51.494a11,11,0,0,1-11,11H11a11,11,0,0,1-11-11V11A11,11,0,0,1,11,0Z" transform="translate(0 11.397)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+      <rect id="Rectangle_2188" data-name="Rectangle 2188" width="17.543" height="39.169" rx="3" transform="translate(11.71 22.611)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      <rect id="Rectangle_2189" data-name="Rectangle 2189" width="17.543" height="26.591" rx="3" transform="translate(37.085 22.611)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

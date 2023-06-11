@@ -1,0 +1,26 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/block-text";
+@import "./components/btn";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/banner";
+@import "./components/services";
+@import "./components/about";
+@import "./components/works";
+@import "./components/steps";
+@import "./components/other-services";
+@import "./components/footer";
+
+body.home{
+    background-color: transparent !important;
+    background-color: #0f0538 !important;
+    background: url(https://cdn-hbgkb.nitrocdn.com/ksqTVAltdSmFzWjdmzohzcPXjuByGmJu/assets/static/optimized/rev-9b7182a/wp-content/uploads/2022/10/DESKTOP-BG-GURU-1.svg) repeat top center;
+    background-size: cover;
+}
+

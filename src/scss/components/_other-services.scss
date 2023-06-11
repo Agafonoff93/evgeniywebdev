@@ -1,0 +1,72 @@
+.other-services {
+  margin-top: 20px;
+  // .other-services__container
+  &__container {
+  }
+  // .other-services__block-text
+  &__block-text {
+  }
+  // .other-services__body
+  &__body {
+    margin-top: 50px;
+  }
+  // .other-services__card-other-services
+  &__card-other-services {
+  }
+}
+
+.card-other-services {
+  position: relative;
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(--light-color);
+  background: #251d53;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  // .card-other-services__title
+  &__title {
+    background: linear-gradient(90deg,#9e57fb,#f58777);
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 260px;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -25px;
+  }
+  // .card-other-services__list
+  &__list {
+  }
+  // .card-other-services__item
+  &__item {
+    width: 100%;
+    background: #302860;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  // .card-other-services__name
+  &__name {
+  }
+  // .card-other-services__price
+  &__price {
+  }
+  // .card-other-services__ps
+  &__ps {
+    p {
+      margin: 0;
+    }
+    p:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}

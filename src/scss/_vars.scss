@@ -1,0 +1,19 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Phenomena", sans-serif;
+  --content-width: 1152px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --offset: 32px;
+  // colors
+  --light-color: #fff;
+  --accent-color: #c974e0;
+  --second-color: #d978a1;
+  --dark-color: #031549;
+  // size
+  --main-size: 18px;
+  --second-size: 22px;
+}

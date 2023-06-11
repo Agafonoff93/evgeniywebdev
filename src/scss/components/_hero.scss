@@ -1,0 +1,60 @@
+
+.hero {
+  padding-top: 90px;
+
+  // min-height: 776px;
+  color: var(--light-color);
+  margin-bottom: 20px;
+  &__content{
+    padding-top: 100px;
+    grid-column: 6 span;
+    @include small-tablet {
+      padding-top: 50px;
+    }
+    @include mobile {
+      grid-column: 12 span;
+    }
+    @include mini-mobile {
+      grid-column: 10 span;
+    }
+  }
+  &__image{
+    grid-column: 6 span;
+    @include mobile {
+      grid-column: 12 span;
+    }
+  }
+  // .hero__title
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 48px;
+    letter-spacing: 1.2;
+    line-height: 120%;
+    @include tablet {
+      font-size: 30px;
+    }
+    @include small-tablet {
+      margin-bottom: 20px;
+    }
+  }
+  // .hero__descr
+  &__descr {
+    margin: 0;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 30px;
+    @include small-tablet {
+      font-size: 16px;
+    }
+  }
+  // .hero__btn
+  &__btn {
+  }
+}
+.container {
+}
+.grid {
+}
+.btn {
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="90" viewBox="0 0 101 90">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2190" data-name="Rectangle 2190" width="101" height="90" transform="translate(-0.179 -0.092)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.403" y1="0.719" x2="0.424" y2="0.269" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd800"/>
+      <stop offset="0.143" stop-color="#ffd500"/>
+      <stop offset="1" stop-color="#ff9300"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.931" y1="0.156" x2="0.32" y2="0.757" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffba00"/>
+      <stop offset="1" stop-color="#ff9300" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.218" y1="0.844" x2="0.909" y2="0.05" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Mask_Group_27" data-name="Mask Group 27" transform="translate(0.179 0.092)" clip-path="url(#clip-path)">
+    <g id="Group_11226" data-name="Group 11226" transform="translate(3.012 8.021)">
+      <rect id="Rectangle_2184" data-name="Rectangle 2184" width="12" height="9" transform="translate(31.809 54.888)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_2198" data-name="Rectangle 2198" width="55" height="38" rx="5" transform="translate(39.809 -0.112)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.3" fill="url(#linear-gradient-2)"/>
+      <rect id="Rectangle_2183" data-name="Rectangle 2183" width="76" height="46" rx="5" transform="translate(-0.191 10.888)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-3)"/>
+      <rect id="Rectangle_2185" data-name="Rectangle 2185" width="33" height="6" rx="3" transform="translate(21.809 63.888)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-3)"/>
+      <g id="Group_11225" data-name="Group 11225" transform="translate(6.936 18.589)">
+        <path id="Path_13306" data-name="Path 13306" d="M-4883.892-1126.54v28.637h30.685v-28.637Zm3.079,25.127,9.474-15.165,9.477,15.165Zm18.951-11.044a5.293,5.293,0,0,1-5.293-5.292,5.292,5.292,0,0,1,5.293-5.292,5.292,5.292,0,0,1,5.292,5.292A5.292,5.292,0,0,1-4861.863-1112.457Z" transform="translate(4883.892 1126.991)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        <g id="Rectangle_30-2" data-name="Rectangle 30-2" transform="translate(35.794 24.097)">
+          <rect id="Rectangle_2071" data-name="Rectangle 2071" width="20.932" height="5.441" transform="translate(0 0)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        </g>
+        <g id="Rectangle_30-2-2" data-name="Rectangle 30-2" transform="translate(35.794 12.048)">
+          <rect id="Rectangle_2071-2" data-name="Rectangle 2071" width="16.837" height="5.441" transform="translate(0 0)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        </g>
+        <g id="Rectangle_30-2-3" data-name="Rectangle 30-2" transform="translate(35.794 0)">
+          <rect id="Rectangle_2071-3" data-name="Rectangle 2071" width="24.338" height="5.441" transform="translate(0 0)" fill="#251d53" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
