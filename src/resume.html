@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body id="page" class="page__body home">
+  <div class="site-container">
+    <header  class="header header--position">
+      <div class="container flex header__container">
+        <a href="#" class="logo flex">
+          <img src="img/Group-11176.png" alt="AGE logo">
+          <div class="logo__text">
+            <div class="logo__name-wrapper">
+              <div class="logo__name">
+                <div style="width:200px" class="logo__name-age-it"><p>Агафонов Евгений</p></div>
+                <div class="logo__name-my"><p>Agafonov Evgeniy</p></div>
+              </div>
+            </div>
+
+            <span class="logo__description">Веб-разработчик</span>
+          </div>
+
+        </a>
+
+
+        <nav class="nav flex" title="Main navigation" data-menu>
+          <ul class="nav__list list-reset flex">
+            <li data-menu-item class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+            <li data-menu-item class="nav__item"><a href="#works" class="nav__link">Портфолио</a></li>
+            <li data-menu-item class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+
+          </ul>
+          <a href="#contacts" class="nav__button btn-light"><img src="img/icons/telegram.svg" alt="telegram"><span>Написать в Telegram</span></a>
+        </nav>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <main style="margin: 100px 0;" class="main">
+      @include('partials/about.html')
+      @include('partials/works.html')
+    </main>
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
