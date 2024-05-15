@@ -57,8 +57,13 @@ import { burger } from './functions/burger';
 // });
 
 // Подключение анимаций по скроллу
-// import AOS from 'aos';
-// AOS.init();
+import AOS from 'aos';
+AOS.init(
+  {
+    easing:'ease-in-out-back',
+    duration: 750,
+  }
+);
 
 // Подключение параллакса блоков при скролле
 // import Rellax from 'rellax';
@@ -77,12 +82,63 @@ const scroll = new SmoothScroll('a[href*="#"]');
 // });
 
 import { validateForms } from './functions/validate-forms';
-const rules1 = [
 
+function showSuccessMessage() {
+  const successMessage = document.querySelector(".success-message");
+  successMessage.style.display = "flex";
+  successMessage.classList.remove("hide");
+  // Плавное появление уведомления
+  setTimeout(() => {
+    successMessage.classList.add("show");
+  }, 100); // Задержка перед добавлением класса "show" (0.1 секунда)
+
+  // Через 7 секунд добавляем класс "hide" для запуска анимации плавного исчезания
+  setTimeout(() => {
+    successMessage.classList.remove("show");
+    successMessage.classList.add("hide");
+  }, 7000); // 7 секунд (7000 миллисекунд)
+
+  // После окончания анимации удалить уведомление из DOM
+  setTimeout(() => {
+    successMessage.style.display = "none";
+  }, 8000); // 8 секунд (8000 миллисекунд), чтобы дать время для завершения анимации
+}
+
+const rules1 = [
+  {
+    ruleSelector: '[data-validate-field="name"]',
+    rules: [
+      { rule: 'required', errorMessage: 'Пожалуйста, введите ваше имя' },
+      // Другие правила для поля Имя, если необходимо
+    ],
+  },
+  {
+    ruleSelector: '[data-validate-field="email"]',
+    rules: [
+      { rule: 'required', errorMessage: 'Пожалуйста, введите ваш email' },
+      { rule: 'email', errorMessage: 'Пожалуйста, введите корректный email' },
+      // Другие правила для поля Email, если необходимо
+    ],
+  },
+  {
+    ruleSelector: '[data-validate-field="tel"]',
+    rules: [
+      { rule: 'required', errorMessage: 'Пожалуйста, введите ваш телефон' },
+      // Другие правила для поля Телефон, если необходимо
+    ],
+  },
+  {
+    ruleSelector: '[name="Сообщение"]',
+    rules: [
+      { rule: 'required', errorMessage: 'Пожалуйста, введите ваше сообщение' },
+      // Другие правила для текстовой области Сообщение, если необходимо
+    ],
+  },
 ];
 
 const afterForm = () => {
   console.log('Произошла отправка, тут можно писать любые действия');
+  showSuccessMessage()
 };
 
 validateForms('.form', rules1, afterForm);
